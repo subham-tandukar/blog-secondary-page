@@ -312,6 +312,14 @@ span {
   }
 }
 
+.stories-wrapper {
+  .stories {
+    padding: 2rem;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04),
+      0px 8px 16px rgba(0, 0, 0, 0.08);
+  }
+}
+
 @media (max-width: 1199.9px) {
   .sidebar {
     margin-top: 1rem;
@@ -341,8 +349,8 @@ span {
 }
 
 @media (max-width: 959.9px) {
-  .main-content{
-    .date{
+  .main-content {
+    .date {
       flex-direction: column;
     }
   }
@@ -360,7 +368,7 @@ span {
   #tag {
     margin-right: 0 !important;
     width: 100% !important;
-    margin:  0 auto !important;
+    margin: 0 auto !important;
   }
 
   #popular-post1-content,
@@ -395,7 +403,7 @@ span {
       width: 100% !important;
       padding: 0;
 
-      h4{
+      h4 {
         text-align: center;
         margin-top: 0.5rem;
       }
@@ -419,7 +427,7 @@ span {
 }
 
 @media (max-width: 639.9px) {
-  .main-content{
+  .main-content {
     padding: 0 3rem;
     h1 {
       font-size: 36px !important;
@@ -427,19 +435,21 @@ span {
     h3 {
       font-size: 20px !important;
     }
-    p, span{
+    p,
+    span {
       font-size: 16px !important;
     }
-    .date{
+    .date {
       flex-direction: row !important;
     }
-    .content1, .content2{
+    .content1,
+    .content2 {
       padding-top: 0 !important;
     }
-    .content2{
+    .content2 {
       padding-bottom: 0 !important;
     }
-    .comment{
+    .comment {
       margin-top: 1rem !important;
     }
   }
@@ -451,22 +461,24 @@ span {
     width: 75% !important;
   }
 
-  .popular-post-heading, .popular-tag-heading{
+  .popular-post-heading,
+  .popular-tag-heading {
     width: 75% !important;
     margin: 1rem auto;
     overflow: hidden;
   }
 
-  .popular-tag{
+  .popular-tag {
     width: 75% !important;
     margin: 1rem auto;
   }
 
   #popular-post1-content,
-  #popular-post2-content{
+  #popular-post2-content {
     flex-direction: column;
 
-    .popular-post1, .popular-post2{
+    .popular-post1,
+    .popular-post2 {
       width: 75% !important;
       margin: 0 auto;
     }
@@ -474,17 +486,18 @@ span {
 }
 
 @media (max-width: 420px) {
-  .main-content{
+  .main-content {
     padding: 0 0.9rem !important;
 
-    .content1 , .content2{
+    .content1,
+    .content2 {
       padding-right: 0 !important;
     }
-    .date{
+    .date {
       flex-direction: column !important;
     }
   }
-  .post{
+  .post {
     padding: 0 !important;
   }
   .related-post-content {
@@ -495,18 +508,20 @@ span {
   }
 
   #popular-post1-content,
-  #popular-post2-content{
-    .popular-post1, .popular-post2{
+  #popular-post2-content {
+    .popular-post1,
+    .popular-post2 {
       width: 100% !important;
       padding: 0 !important;
     }
   }
 
-  .popular-post-heading, .popular-tag-heading{
+  .popular-post-heading,
+  .popular-tag-heading {
     width: 100% !important;
   }
 
-  .popular-tag{
+  .popular-tag {
     width: 100% !important;
   }
 }
