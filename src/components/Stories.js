@@ -2,7 +2,7 @@ import React from "react";
 import { useGlobalContext } from "./context";
 
 const Stories = () => {
-  const { hits, isLoading, removePost } = useGlobalContext();
+  const { hits, isLoading } = useGlobalContext();
   if (isLoading) {
     return (
       <>
